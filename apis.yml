@@ -1,8 +1,17 @@
 aid: datasnipper
 name: DataSnipper
-description: 'DataSnipper is a company surfaced as a portfolio company of index-ventures, insight-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: business-applications. This
-  profile is a lead awaiting the enrichment pipeline.'
+description: >-
+  DataSnipper is an AI-powered, agentic productivity platform built specifically
+  for audit, tax, and finance teams. It automates repetitive testing and analysis
+  work - extracting, matching, and analyzing data across documents and systems -
+  while keeping human professionals in control of final decisions. Capabilities
+  include AI Agents for end-to-end workflows (revenue testing, tests of detail,
+  royalty calculations), Excel Agents that run analysis directly inside
+  spreadsheets, and document intelligence that collects and cross-references
+  evidence. The platform serves external audit, internal audit, tax, financial
+  control, government audit, and advisory teams, with a security-first posture
+  (no training on customer data, encryption, and 24-hour document deletion).
+  Backed by Index Ventures and Insight Partners.
 url: https://raw.githubusercontent.com/api-evangelist/datasnipper/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +20,30 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://eu-images.contentstack.com/v3/assets/bltc08aa646f32b9827/blt41a3abe3af8043dc/68ff34eab4940c336c7cd99a/DataSnipper-Logo-White.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Business Applications
+- Audit
+- Finance
+- Tax
+- Document Intelligence
+- AI Agents
+- Automation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +53,30 @@ maintainers:
 common:
 - type: Website
   url: https://www.datasnipper.com/
+- type: Pricing
+  url: https://www.datasnipper.com/pricing
+- type: TermsOfService
+  url: https://www.datasnipper.com/legal/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.datasnipper.com/privacy-policy
+- type: HelpCenter
+  url: https://knowledge.datasnipper.com/
+- type: Support
+  url: https://community.datasnipper.com/
+- type: Blog
+  url: https://www.datasnipper.com/resources?types=blog
+- type: GitHubOrganization
+  url: https://github.com/datasnipper
+- type: TrustCenter
+  url: https://trust.datasnipper.com/
+- type: Compliance
+  url: https://www.datasnipper.com/security
+- type: DomainSecurity
+  url: security/datasnipper-domain-security.yml
+- type: WellKnown
+  url: well-known/datasnipper-well-known.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
