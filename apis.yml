@@ -32,7 +32,7 @@ accessModel:
   generated: '2026-07-22'
   method: derived
 image: https://eu-images.contentstack.com/v3/assets/bltc08aa646f32b9827/blt41a3abe3af8043dc/68ff34eab4940c336c7cd99a/DataSnipper-Logo-White.png
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
